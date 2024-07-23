@@ -1,4 +1,9 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Myhro Notes'
 theme = 'bearblog'
+
+[params]
+hideMadeWithLine = true
+
+[permalinks]
+blog = '/:year/:month/:slug'
