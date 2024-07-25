@@ -3,7 +3,7 @@
   {{ if .Data.Singular }}
   <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
   <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
+    <a href="{{ "/" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
   <ul class="blog-posts">
@@ -31,7 +31,7 @@
         {{ end }}
       </div>
     </small>
+    <p>Subscribe <a href="/index.xml">via RSS</a></p>
   {{ end }}
-  <p>Subscribe <a href="/index.xml">via RSS</a></p>
 </content>
 {{ end }}
