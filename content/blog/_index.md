@@ -1,3 +1,4 @@
 +++
-url = "/"
+outputs = ['html', 'rss']
+url = '/'
 +++
