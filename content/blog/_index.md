@@ -1,4 +1,6 @@
-+++
-outputs = ['html', 'rss']
-url = '/'
-+++
+---
+outputs:
+  - html
+  - rss
+url: /
+---

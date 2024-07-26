@@ -1,7 +1,7 @@
-+++
-title = "Native GUIs, cross-platform backends"
-date = "2024-07-24"
-+++
+---
+title: Native GUIs, cross-platform backends
+date: 2024-07-24
+---
 
 A while ago I saw an article that mentions how a macOS application had its GUI written in Cocoa/Swift, but the backend was a [Racket][racket] JSON-RPC server:
 https://defn.io/2020/01/04/remember-internals/

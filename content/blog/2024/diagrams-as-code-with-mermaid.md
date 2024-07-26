@@ -1,7 +1,7 @@
-+++
-title = "Diagrams as code with Mermaid"
-date = "2024-07-25"
-+++
+---
+title: Diagrams as code with Mermaid
+date: 2024-07-25
+---
 
 I recently saw an article mentioning how Gantt chart diagrams are useful to represent distributed traces in [Mermaid][mermaid], the JavaScript library used to build graphs from Markdown: https://brycemecum.com/2023/03/31/til-mermaid-tracing/
 

@@ -1,0 +1,13 @@
+---
+title: Myhro Notes
+disableKinds:
+  - rss
+languageCode: en-us
+params:
+  hideMadeWithLine: true
+permalinks:
+  blog: '/:year/:month/:slug'
+services:
+  rss:
+    limit: 10
+theme: bearblog

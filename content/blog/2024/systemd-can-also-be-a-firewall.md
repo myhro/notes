@@ -1,7 +1,7 @@
-+++
-title = "Systemd can also be a firewall"
-date = "2024-07-18"
-+++
+---
+title: Systemd can also be a firewall
+date: 2024-07-18
+---
 
 This is something I didn't know about, but apparently, systemd can act as a firewall for services configured with `IPAddressDeny` or `IPAddressAllow` settings. It's important to keep this in mind when debugging strange networking issues where it's not obvious what might be dropping packets: https://rachelbythebay.com/w/2024/07/17/bpf/
 
